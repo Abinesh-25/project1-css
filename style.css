@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    color: #fff;
+}
+nav{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+  
+   
+}
+
+.nav-links li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px,30px;
+
+}
+.nav-links li a{
+
+    text-decoration: none;
+    color: white;
+    padding: 30px 30px 0px  ;
+}
+.register-btn{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+}
+.register-btn:hover{
+
+
+    background-color: #ff5361;
+    color: white;
+    transition: .1s;
+
+}
+.container{
+    padding: 0 7%;
+
+}
+.container h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top:  22% ;
+
+}
+.search-bar{
+    background-color: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+  
+
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.search-bar input{
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: transparent;
+   
+    
+}
+.search-bar button{
+     background-color: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.search-bar button:hover{
+    background-color: #333;
+    transition: .1s;
+
+}
+.cta-btn:hover{
+    background-color: #333;
+
+
+}
+
+
+.start-btn:hover{
+
+    background-color: #333;
+
+}
+.search-bar form button img{
+    width: 15px;
+    margin-top: 7px;
+}
+.search-bar form label{
+    font-weight: 600;
+}
+
+.subtitle{
+    margin: 50px 0 20px;
+    font-size: 2.2v;
+    font-weight: 500;
+    color: #333;
+
+}
+.exclusives{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px,1fr));
+    grid-gap: 30px;
+}
+.exclusives div img{
+    width: 100%;
+    border-radius: 10px;
+    transition: .2s;
+}
+.exclusives div button{
+
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.exclusives div img:hover{
+    transform: translateY(-10px);
+}
+.exclusives div{
+    position: relative;
+}
+.exclusives div span{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.trending{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+.trending div button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.trending div img{
+    width: 100%;
+    border-radius: 10px;
+    transition: .3s;
+}
+.trending div img:hover{
+    transform: translateX(10px);
+}
+.trending h3{
+    font-weight: 500px;
+    margin-top: 10px;
+}
+.cta{
+    margin: 80px 0;
+    background-image: linear-gradient(to right, #3f2331, transparent),url(images/banner-2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+
+.cta h3{
+    font-size: 4vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+}
+.cta p{
+    font-size: 18px;
+    margin: 10px 0;
+
+}
+.cta-btn{
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+.stories div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.stories div{
+    position: relative;
+    text-align: center;
+
+}
+.stories p{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 26px;
+}
+.start-btn{
+    text-decoration: none;
+    background-color: #ff5361;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+
+
+}
+.about-msg{
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+}
+.about-msg h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
+
+}
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+padding: 10px;
+
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    border: 0 ;
+
+
+}
+.active{
+    position: relative;
+}
+
+@media only screen and (max-width: 700px){
+    .logo{
+        position: fixed;
+        top: 4%;
+        left: 7%;
+    }
+
+    .nav{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 100%;
+        padding: 100px 7% 0;
+        background-color: #000;
+        text-align: center;
+    }
+    nav .nav-links li{
+        margin: 10px 0;
+        display: block;
+
+    }
+
+    .register-btn{
+        margin: 15px 0 30px;
+        display: inline-block;
+    }
+
+    .search-bar{
+        width: 90%;
+        
+        padding: 20px 10px 30px;
+        border-radius: 5px;
+      
+
+    }
+    .search-bar form{
+        display: block;
+    }
+
+    .search-bar input{
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+     
+    }
+    .search-bar button{
+        position: absolute;
+        margin-bottom: 0px;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .subtitle{
+        font-size: 6vw;
+
+    }
+    .cta{
+        padding: 15% 5%;
+
+    }
+    .cta h3{
+        font-size: 7vw;
+        line-height: 8vw;
+    }
+    .cta p{
+        font-size: 14px;
+    }
+    .cta-btn{
+        padding: 6px 15px ;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 14px;
+
+    }
+    .stories p{
+        font-size: 22px;
+
+
+    }
+    .about-msg{
+        font-size: 15px;
+    }
+    
+}
